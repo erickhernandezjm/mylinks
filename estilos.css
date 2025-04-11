@@ -20,7 +20,7 @@ body {
     padding-top: 20px;
     padding-bottom: 40px;
     /* background-color: #222831; */
-    background-image: url(/img/mahavir_compressed.jpg); /* Cambia la ruta a la imagen de fondo / Change the path to you prefered bg image*/
+    background-image: url('img/mahavir_compressed.jpg'); /* Cambia la ruta a la imagen de fondo / Change the path to you prefered bg image*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,7 +41,7 @@ body {
     display: flex;
     width: 200px;
     height: 200px;
-    background-image: url(/img/picofme.png); /* Cambia la ruta a la imagen de perfil / Change the path to you prefered profile pic*/
+    background-image: url('img/picofme.png'); /* Cambia la ruta a la imagen de perfil / Change the path to you prefered profile pic*/
     object-fit: cover;
     background-size: cover;
     background-position: center;
