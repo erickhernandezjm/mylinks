@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Special+Gothic+Condensed+One&display=swap');
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../webfonts/fa-solid-900.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* background-color: #222831; */
+    background-image: url(/img/mahavir_compressed.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.container_foto {
+    flex-direction: column;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/picofme.png);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+}
+
+.nombre {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-family: "Special Gothic Condensed One", cursive;
+    color: rgba(252, 218, 5, 1);
+}
+
+.container_enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+}
+
+.enlaces {
+    /* From https://css.glass */
+    background: rgba(34, 34, 34, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid  rgba(252, 218, 5, 0.2);;
+
+
+    height: 20px;
+    width: 80%;
+    padding: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.7s;
+    font-size: 20px;
+    font-family: 'National Park', monospace;
+    border-radius: 20px;
+
+}
+
+.icons {
+    font-size: 26px;
+    color: white;
+    padding: 0px 10px 0px 0px;
+}
+
+
+.enlaces:hover {
+    background-color: #FCDA05;
+    color: #222831;
+    transition-duration: 0.7s;
+}
+
+.enlaces:hover>.icons {
+    color: #222831;
+    transition-duration: 0.7s;
+}
+
+.container-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer {
+    padding-top: 20px;
+    color: #FCDA05;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+
+}
+
+/* Media Queries para pantallas grandes (PC) */
+@media (min-width: 768px) {
+    .container-enlaces {
+        width: 100%;
+    }
+
+    .enlaces {
+        width: 50%;
+    }
+
+    body{
+        background-color: #212224;
+    }
+}
