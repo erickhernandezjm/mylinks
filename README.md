@@ -1,7 +1,7 @@
 # mylinks
 All my links in the same place
 
-# Coloca tus enlances
+# Coloca tus enlaces
 
 Existen servicios como Linktree y Bento.me que ofrecen un espacio para alojar todos nuestros enlaces. Pero si ya cuentas con un dominio y hosting propio, puedes utilizar este pequeño proyecto y personalizar tus enlaces. 
 
