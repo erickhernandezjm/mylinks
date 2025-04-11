@@ -77,17 +77,15 @@ body {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid  rgba(252, 218, 5, 0.2);;
-
-
     height: 20px;
     width: 80%;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
     text-decoration: none;
     color: white;
     transition-duration: 0.7s;
-    font-size: 20px;
     font-family: 'National Park', monospace;
+    font-size: 30px;
     border-radius: 20px;
 
 }
@@ -126,17 +124,71 @@ body {
 
 }
 
-/* Media Queries para pantallas grandes (PC) */
-@media (min-width: 768px) {
+/* Media queries para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .container-enlaces {
+        width: 100%;
+    }
+
+    .enlaces {
+        width: 80%;
+        font-size: 16px;
+        border: 1px solid  rgba(252, 218, 5, 0.5);;
+
+    }
+
+    .icons {
+        font-size: 18px;
+        color: white;
+        padding: 0px 10px 0px 0px;
+    }
+
+}
+
+
+/* Media queries para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 996px) {
     .container-enlaces {
         width: 100%;
     }
 
     .enlaces {
         width: 50%;
+        font-size: 18px;
+    }
+
+
+    .icons {
+        font-size: 18px;
+        color: white;
+        padding: 0px 10px 0px 0px;
     }
 
     body{
+        background-image: none;
+        background-color: #212224;
+    }
+}
+/* Media queries para pantallas grandes (laptops + PC) */
+@media (min-width: 996px) {
+    .container-enlaces {
+        width: 100%;
+    }
+
+    .enlaces {
+        width: 50%;
+        font-size: 20px;
+    }
+
+
+    .icons {
+        font-size: 20px;
+        color: white;
+        padding: 0px 10px 0px 0px;
+    }
+
+    body{
+        background-image: none;
         background-color: #212224;
     }
 }
