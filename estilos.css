@@ -1,3 +1,5 @@
+/* ESTAS SON LAS FUENTES QUE HE ESCOGIDO, USA AQUELLAS QUE VAYAN CON TU MARCA*/
+/* USE YOUR OWN FONTS IN ORDER TO FIT WITH YOUR BRAND*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Special+Gothic+Condensed+One&display=swap');
 
@@ -18,7 +20,7 @@ body {
     padding-top: 20px;
     padding-bottom: 40px;
     /* background-color: #222831; */
-    background-image: url(/img/mahavir_compressed.jpg);
+    background-image: url(/img/mahavir_compressed.jpg); /* Cambia la ruta a la imagen de fondo / Change the path to you prefered bg image*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +41,7 @@ body {
     display: flex;
     width: 200px;
     height: 200px;
-    background-image: url(/img/picofme.png);
+    background-image: url(/img/picofme.png); /* Cambia la ruta a la imagen de perfil / Change the path to you prefered profile pic*/
     object-fit: cover;
     background-size: cover;
     background-position: center;
